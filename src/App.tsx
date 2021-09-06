@@ -1,9 +1,10 @@
-function App() {
+import { Theme } from './themes'
+import { Routes } from './routes'
+
+export const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <Theme>
+      <Routes/>
+    </Theme>
   );
 }
-
-export default App;
